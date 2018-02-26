@@ -1,0 +1,22 @@
+{
+  "name": "@yjc/stream-tool",
+  "version": "0.0.2",
+  "description": "Fast stream read tools for files.",
+  "devDependencies": {
+    "@types/node": "^8.5.7"
+  },
+  "scripts": {
+    "prepublishOnly": "rm -rf release && tsc -p src"
+  },
+  "author": "YJC",
+  "license": "MIT",
+  "main": "release/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangjc/node-stream-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yangjc/node-stream-tool/issues"
+  },
+  "homepage": "https://github.com/yangjc/node-stream-tool#readme"
+}

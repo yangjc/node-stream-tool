@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ESNext",
+        "strict": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "outDir": "../release",
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
